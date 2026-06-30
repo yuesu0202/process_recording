@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env / secrets
+.env*
+!.env.example
+
+# generated artifacts (user uploads + extracted frames)
+/public/screenshots/
+/tmp/
+/.uploads/
+
+# misc
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
