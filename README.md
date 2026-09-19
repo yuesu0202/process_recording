@@ -43,8 +43,7 @@ echo "GEMINI_API_KEY=your-key" > .env.local      # see .env.example
 npm run dev        # http://localhost:3000
 ```
 
-- **Use it:** pick a sample from `sample_video/`, click *Generate test script*, watch it move
-  through *Uploading → Analyzing → Capturing screenshots*, then read the table.
+- **Use it:** pick a clip from `examples/`, click *Generate test script*, watch it move
 - **Configure columns (Part 2):** click *Configure columns*, edit the template, save, then
   upload — the new columns drive generation.
 
